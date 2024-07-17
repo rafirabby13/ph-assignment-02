@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* shared styles */
+.body {
+  font-family: "Inter", sans-serif;
+  background: rgb(0, 0, 0);
+  max-width: 73.6%;
+  margin: 0 auto;
+}
+
+:root {
+  --text-orange: rgb(230, 83, 60);
+  --text-white: #fff;
+  --text-gray: rgba(255, 255, 255, 0.5);
+}
+
+.display-flex{
+    display: flex;
+    
+}
+.logo {
+  color: var(--text-orange);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.nav-links{
+    color: var(--text-white);
+    font-size: 1.125rem;
+font-weight: 400;
+}
+.text-title {
+  color: var(--text-white);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.text-secondary {
+  color: var(--text-white);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.text-description {
+  color: var(--text-gray);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.btn {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 40px 16px 40px;
+
+}
+
+
+/* header sty;e */
+
+/* navbar style */
+
+.navbar  {
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 57px;
+    margin-bottom: 32px;
+
+}
+.nav-link-container{
+gap: 3rem;
+align-items: center;
+}
+.nav-link-container li{
+    list-style: none;
+
+}
+.nav-link-container a{
+    text-decoration: none;
+    
+}
+.special{
+    padding: 8px 20px 8px 20px;
+    background-color: var(--text-orange);
+    border-radius: 46px;
+}
+.bar{
+    display: none;
+}
+.bar .icon{
+    color: var(--text-white);
+    height: 16px;
+    width: 16px;
+
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 576px) {
+
+    .ul-container{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    
+}
