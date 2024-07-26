@@ -1,10 +1,129 @@
 @media screen and (max-width: 576px) {
+  .body {
+    max-width: calc(100%-20px);
+    margin: 0 auto;
+  }
+  .section{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+  .hero,
+  .habit-content,
+  .navbar,
+  .run-extra-mile,
+  .run-content,
+  .run-image-div,
+  .training-header,
+  .training-header,
+  .run-btn,
+  .team-header,
+  .bmi-header-content {
+    width: 100%;
+  }
+  .navbar{
+    gap: 2rem;
+    margin-bottom: 0px;
+  }
+  .hero-content-title{
+    margin-top: 0px;
+    width: 285px;
+  }
+  .training-exercise{
+    margin: 0px 20px;
+  }
+  .run-image-div {
+    height: 170px;
+  }
+  .training-header,
+  .meet-our-team{
+    width: 74.7%;
+    margin-bottom: 37px;
+  }
+  .run-extra-mile,
+  .bmi-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 33px 35px;
+    gap: 31px;
+  }
+  .no-club {
+    display: block;
+  }
+  .club,
+  .trainee-1,
+  .trainee-6 {
+    display: none;
+  }
+  .button {
+    display: flex;
+  }
 
-    .ul-container{
-        display: none;
-    }
-    .bar{
-        display: block;
-    }
-    
+  .hero,
+  .habit-card-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  .footer-container{
+    padding-left: 20px;
+    gap: 30px;
+
+  }
+  .footer-container,
+  .footer-links-container {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
+
+  .bar {
+    display: block;
+  }
+  .training-first-div{
+    grid-template-columns: 1fr 1fr;
+  }
+  .ul-container,
+  .training-image-3,
+  .training-image-6{
+    display: none;
+  }
+  .training-second-div{
+    grid-template-columns: 1fr 1.24fr;
+  }
+  .exercise-image{
+    height: 127px;
+  
+  }
+  .bmi-table-form-container {
+    padding: 34px 0px 59px 0px;
+    border: 2px solid white;
+  }
+  
+  .bmi-container {
+    gap: 42px;
+  }
+  .bmi-chart{
+    /* border: 2px solid white; */
+    margin-top: 0px;
+  }
+  .image-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 78px;
+  }
+  .download-app {
+    margin-left: 0.5rem;
+  }
+  .hero {
+    margin-bottom: 0px;
+  }
+  .hero-image {
+    margin: 0 auto;
+  }
+
+  .habit-card {
+    width: 50%;
+  }
 }
