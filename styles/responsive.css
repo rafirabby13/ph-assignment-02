@@ -11,7 +11,6 @@
   .hero,
   .habit-content,
   .navbar,
-  .run-extra-mile,
   .run-content,
   .run-image-div,
   .training-header,
@@ -99,7 +98,6 @@
   }
   .bmi-table-form-container {
     padding: 34px 0px 59px 0px;
-    border: 2px solid white;
   }
   
   .bmi-container {
