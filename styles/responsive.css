@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+ @media screen and (max-width: 576px) {
   .body {
     max-width: calc(100%-20px);
     margin: 0 auto;
@@ -20,14 +20,49 @@
   .bmi-header-content {
     width: 100%;
   }
-  .navbar{
-    gap: 2rem;
+  .hero{
+    flex-direction: column;
+    
     margin-bottom: 0px;
+    gap: 3rem;
   }
-  .hero-content-title{
+  .hero-content{
+    width: 100%;
+  } 
+  .hero-content-container{
+    width: 100%;
+
     margin-top: 0px;
-    width: 285px;
   }
+  .video-tutorial {
+    display: none;
+    position: absolute;
+    bottom: 321px;
+    left: 0px;
+    align-items: center;
+  }
+  .free-workout {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 1px;
+  }
+  .no-club {
+    display: inline;
+  }
+  .hero-image {
+    width: 100%;
+  }
+  .hero-image img{
+    width: 100%;
+
+    margin: 0 auto;
+
+  }
+  .bmi-header-content{
+    width: 90%;
+  }
+ 
   .training-exercise{
     margin: 0px 20px;
   }
@@ -46,9 +81,7 @@
     padding: 31px 33px 35px;
     gap: 31px;
   }
-  .no-club {
-    display: block;
-  }
+ 
   .club,
   .trainee-1,
   .trainee-6 {
@@ -58,7 +91,7 @@
     display: flex;
   }
 
-  .hero,
+  
   .habit-card-container {
     width: 100%;
     flex-direction: column;
@@ -104,7 +137,7 @@
     gap: 42px;
   }
   .bmi-chart{
-    /* border: 2px solid white; */
+     border: 2px solid white; 
     margin-top: 0px;
   }
   .image-container {
@@ -114,14 +147,34 @@
   .download-app {
     margin-left: 0.5rem;
   }
-  .hero {
-    margin-bottom: 0px;
-  }
-  .hero-image {
-    margin: 0 auto;
-  }
+ 
 
   .habit-card {
     width: 50%;
   }
-}
+} 
+/* @media screen and (max-width: 576px) {
+  .body{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .section {
+    max-width: calc(100% - 40px);
+  }
+  .hero{
+    flex-direction: column;
+    gap: 2rem;
+  }
+ .hero-description,
+ .hero-image{
+   width: 100%; 
+ }
+  .ul-container,
+  .club{
+    display: none;
+  }
+  .bar,
+  .no-club{
+    display: inline-block;
+  }
+} */
