@@ -1,38 +1,41 @@
- @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .body {
-    max-width: calc(100%-20px);
+    /* max-width: calc(100%-20px); */
     margin: 0 auto;
   }
-  .section{
-    max-width: 100%;
+  .section {
+    max-width: calc(100% - 40px);
     margin: 0 auto;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
+    /* border: 5px solid rgb(230, 23, 23); */
   }
   .hero,
   .habit-content,
   .navbar,
   .run-content,
   .run-image-div,
-  .training-header,
-  .training-header,
   .run-btn,
   .team-header,
   .bmi-header-content {
     width: 100%;
+    /* border: 2px solid white; */
   }
-  .hero{
+  .hero {
     flex-direction: column;
-    
+
     margin-bottom: 0px;
     gap: 3rem;
   }
-  .hero-content{
+  .hero-content {
     width: 100%;
-  } 
-  .hero-content-container{
-    width: 100%;
-
+  }
+  .hero-content-container {
+    width: 72%;
+    /* border: 2px solid white; */
     margin-top: 0px;
+  }
+  .hero-content-title {
+    font-size: 2.25rem;
   }
   .video-tutorial {
     display: none;
@@ -48,40 +51,52 @@
     right: 1px;
   }
   .no-club {
-    display: inline;
+    display: inline-block;
+    /* display: block; */
+    /* border: 3px solid white; */
   }
   .hero-image {
     width: 100%;
   }
-  .hero-image img{
+  .hero-image img {
     width: 100%;
 
     margin: 0 auto;
+  }
 
-  }
-  .bmi-header-content{
-    width: 90%;
-  }
- 
-  .training-exercise{
-    margin: 0px 20px;
+  .habit-content {
+    width: 100%;
+    /* border: 2px solid white; */
   }
   .run-image-div {
     height: 170px;
   }
-  .training-header,
-  .meet-our-team{
-    width: 74.7%;
+  .training-exercise-section {
+    height: 520px;
+
+    margin-top: 66px;
+    margin-bottom: 20px;
+  }
+  .training-exercise {
+    margin: 0px 20px;
+  }
+  .training-header {
+    width: 100%;
     margin-bottom: 37px;
   }
-  .run-extra-mile,
-  .bmi-container {
+  .bmi-header-content {
+    width: 90%;
+    margin-bottom: 32px;
+  }
+
+  
+  .run-extra-mile {
     flex-direction: column;
     align-items: center;
     padding: 31px 33px 35px;
     gap: 31px;
   }
- 
+
   .club,
   .trainee-1,
   .trainee-6 {
@@ -91,17 +106,15 @@
     display: flex;
   }
 
-  
   .habit-card-container {
     width: 100%;
     flex-direction: column;
     gap: 3rem;
     align-items: center;
   }
-  .footer-container{
+  .footer-container {
     padding-left: 20px;
     gap: 30px;
-
   }
   .footer-container,
   .footer-links-container {
@@ -110,35 +123,54 @@
     gap: 30px;
   }
 
-
   .bar {
     display: block;
   }
-  .training-first-div{
+  .training-first-div {
     grid-template-columns: 1fr 1fr;
   }
   .ul-container,
   .training-image-3,
-  .training-image-6{
+  .training-image-6 {
     display: none;
   }
-  .training-second-div{
+  .training-second-div {
     grid-template-columns: 1fr 1.24fr;
   }
-  .exercise-image{
+  .exercise-image {
     height: 127px;
-  
+  }
+  .training-image-1-p {
+    color: rgb(255, 255, 255);
+  }
+  .training-image-4-p {
+    left: 30px;
+    bottom: 20px;
+  }
+  .bmi-container{
+    flex-direction: column;
   }
   .bmi-table-form-container {
+    /* border: 2px solid white; */
     padding: 34px 0px 59px 0px;
   }
-  
+
   .bmi-container {
     gap: 42px;
   }
-  .bmi-chart{
-     /* border: 2px solid white;  */
+  .bmi-form{
+    width: 100%;
+  }
+  .bmi-chart {
+    /* border: 2px solid white;  */
     margin-top: 0px;
+  }
+  .meet-our-team {
+    width: 100%;
+    margin-bottom: 37px;
+  }
+  .team-header{
+    width: 87%;
   }
   .image-container {
     grid-template-columns: repeat(1, 1fr);
@@ -147,34 +179,14 @@
   .download-app {
     margin-left: 0rem;
   }
- 
 
   .habit-card {
     width: 50%;
   }
-} 
-/* @media screen and (max-width: 576px) {
-  .body{
-    max-width: 100%;
-    margin: 0 auto;
+  .footer-container {
+    padding-top: 44px;
   }
-  .section {
-    max-width: calc(100% - 40px);
+  .footer-content {
+    width: 91.79%;
   }
-  .hero{
-    flex-direction: column;
-    gap: 2rem;
-  }
- .hero-description,
- .hero-image{
-   width: 100%; 
- }
-  .ul-container,
-  .club{
-    display: none;
-  }
-  .bar,
-  .no-club{
-    display: inline-block;
-  }
-} */
+}
