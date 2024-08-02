@@ -37,18 +37,22 @@
   .hero-content-title {
     font-size: 2.25rem;
   }
+  .services {
+    padding: 11px 18px;
+  }
   .video-tutorial {
-    display: none;
-    position: absolute;
-    bottom: 321px;
+    /* display: none; */
+    /* position: absolute; */
+    bottom: 271px;
     left: 0px;
     align-items: center;
   }
   .free-workout {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 1px;
+    /* display: none; */
+    /* position: absolute; */
+    /* overflow: hidden; */
+    top: 40px;
+    right: -20px;
   }
   .no-club {
     display: inline-block;
