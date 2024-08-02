@@ -78,7 +78,7 @@
     margin-bottom: 20px;
   }
   .training-exercise {
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
   }
   .training-header {
     width: 100%;
@@ -125,6 +125,10 @@
 
   .bar {
     display: block;
+  }
+  .training-images {
+    /* width: 100%; */
+    /* border: 3px solid white; */
   }
   .training-first-div {
     grid-template-columns: 1fr 1fr;
