@@ -212,7 +212,7 @@ line-height: 18px;
   margin-right: 12px;
   position: relative;
 }
-.tribhuj{
+.tribhuj {
   position: absolute;
   top: 30%;
   left: 39%;
@@ -275,11 +275,11 @@ line-height: 18px;
   letter-spacing: 0.3px;
 }
 .run-image-div {
-  background-image: url("../images/run.jpg");
-  background-position: right;
+  background-image: url("../images/run_2.png");
+  background-position: center;
   background-size: cover;
   border-radius: 18px;
-  width: 34.5%;
+  width: 44.5%;
 
   height: 312px;
 }
@@ -350,8 +350,8 @@ line-height: 18px;
 .training-image-5 {
   background-image: linear-gradient(
       0deg,
-      rgb(68, 255, 0, .3),
-      rgb(68, 255, 0, .3)
+      rgb(68, 255, 0, 0.3),
+      rgb(68, 255, 0, 0.3)
     ),
     url("../images/exercise5.png");
 }
@@ -364,14 +364,13 @@ line-height: 18px;
     url("../images/exercise6.png");
 }
 
-
 .training-image-description {
   position: absolute;
   color: var(--text-white);
   font-size: 0.875rem;
   font-weight: 500;
 }
-.training-image-1-p ,
+.training-image-1-p,
 .training-image-3-p,
 .training-image-5-p,
 .training-image-6-p {
@@ -387,13 +386,8 @@ line-height: 18px;
   top: 25px;
 }
 .training-image-1-p {
-  
   color: black;
 }
-
-
-
-
 
 /* bmi-calculator.container */
 
@@ -424,7 +418,9 @@ line-height: 18px;
   gap: 75px;
   /* border: 5px solid white; */
 }
-
+.bmi-chart{
+  width: 50%;
+}
 .table {
   margin-top: 52px;
 }
@@ -562,66 +558,69 @@ select {
   left: 20px;
 }
 
-
-
 /* membership section */
 
-.membership{
+.membership {
   margin: 70px auto;
   /* border: 2px solid white; */
-  
 }
-.membership-header{
+.membership-header {
   /* width: 50%; */
   text-align: center;
   margin: 70px auto;
-
 }
-.pass{
+.membership-logo {
+  color: var(--text-orange);
+}
+.pass {
   justify-content: space-between;
   gap: 20px;
 }
-.pass h1{
+.pass h1 {
   font-size: 2rem;
 }
-.one-day-pass{
+.one-day-pass {
   background-color: var(--bg-light);
   padding: 40px 50px;
+  margin-top: 50px;
 }
-.monthly-pass{
+.monthly-pass {
   background-color: var(--text-orange);
   padding: 40px;
   color: var(--bg);
   color: var(--bg-light);
+  margin-bottom: 50px;
 }
-.monthly-pass p{
+.monthly-pass p {
   /* color: var(--bg); */
   font-weight: 700;
 }
-.monthly-pass .btn{
+.monthly-pass .btn {
   background-color: var(--bg-light);
   color: var(--text-orange);
   color: var(--text-white);
 }
-.monthly-pass .price{
-  border-top: 1px solid var(--bg-light);
-  padding-top: 20px;
+.monthly-pass .price {
+  /* border-top: 1px solid var(--bg); */
+  /* padding-top: 20px; */
+  border-bottom: 3px solid var(--bg);
+  padding-bottom: 2px;
 }
-.monthly-pass .basic{
-  font-size: 1.5rem;
-  border-bottom: 1px solid var(--bg-light);
-  padding-bottom: 20px;
+.monthly-pass .basic {
+  padding-top: 10px;
   margin-bottom: 20px;
 }
-.price{
-  /* color: var(--text-orange); */
-  border-top: 1px solid var(--text-orange);
-  padding-top: 20px;
+.pass .btn {
+  border-radius: 8px;
 }
-.basic{
-  font-size: 1.5rem;
-  border-bottom: 1px solid var(--text-orange);
-  padding-bottom: 20px;
+.price {
+  border-bottom: 3px solid var(--text-orange);
+  padding-bottom: 2px;
+}
+.basic {
+  font-size: 1rem;
+  padding-top: 10px;
+
   margin-bottom: 20px;
 }
 /* footer section */
@@ -646,9 +645,8 @@ footer {
 
   gap: 75px;
 }
-.footer-links{
+.footer-links {
   /* border: 2px solid white; */
-
 }
 .footer-links-title {
   color: var(--text-white);

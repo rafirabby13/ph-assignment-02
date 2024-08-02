@@ -73,6 +73,8 @@
     /* border: 2px solid white; */
   }
   .run-image-div {
+    background-image: url("../images/run.jpg");
+    width: 100%;
     height: 170px;
   }
   .training-exercise-section {
@@ -93,7 +95,6 @@
     margin-bottom: 32px;
   }
 
-  
   .run-extra-mile {
     flex-direction: column;
     align-items: center;
@@ -109,15 +110,24 @@
   .button {
     display: flex;
   }
-
+  .bmi-chart{
+    width: 100%;
+  }
   .habit-card-container {
     width: 100%;
     flex-direction: column;
     gap: 3rem;
     align-items: center;
   }
-  .pass{
-flex-direction: column;
+  .pass {
+    flex-direction: column;
+  }
+  .one-day-pass{
+    margin-top: 0px;
+  }
+  .monthly-pass{
+    margin-bottom: 0px;
+  
   }
   .footer-container {
     padding-left: 20px;
@@ -158,7 +168,7 @@ flex-direction: column;
     left: 30px;
     bottom: 20px;
   }
-  .bmi-container{
+  .bmi-container {
     flex-direction: column;
   }
   .bmi-table-form-container {
@@ -169,7 +179,7 @@ flex-direction: column;
   .bmi-container {
     gap: 42px;
   }
-  .bmi-form{
+  .bmi-form {
     width: 100%;
   }
   .bmi-chart {
@@ -180,7 +190,7 @@ flex-direction: column;
     width: 100%;
     margin-bottom: 37px;
   }
-  .team-header{
+  .team-header {
     width: 87%;
   }
   .image-container {
