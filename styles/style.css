@@ -562,6 +562,63 @@ select {
   left: 20px;
 }
 
+
+
+/* membership section */
+
+.membership{
+  margin: 70px auto;
+  /* border: 2px solid white; */
+  
+}
+.membership-header{
+  /* width: 50%; */
+  text-align: center;
+  margin: 70px auto;
+
+}
+.pass{
+  justify-content: space-between;
+  gap: 20px;
+}
+.pass h1{
+  font-size: 2rem;
+}
+.one-day-pass{
+  background-color: var(--bg-light);
+  padding: 40px 50px;
+}
+.monthly-pass{
+  background-color: var(--text-orange);
+  padding: 40px;
+  color: var(--bg-light);
+}
+.monthly-pass .btn{
+  background-color: var(--bg-light);
+  color: var(--text-orange);
+  color: var(--text-white);
+}
+.monthly-pass .price{
+  border-top: 1px solid var(--bg-light);
+  padding-top: 20px;
+}
+.monthly-pass .basic{
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--bg-light);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.price{
+  /* color: var(--text-orange); */
+  border-top: 1px solid var(--text-orange);
+  padding-top: 20px;
+}
+.basic{
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--text-orange);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 /* footer section */
 footer {
   background-color: var(--bg-light);
