@@ -132,10 +132,7 @@
   .monthly-pass {
     margin-bottom: 0px;
   }
-  .footer-container {
-    padding-left: 20px;
-    gap: 30px;
-  }
+  
   .footer-container,
   .footer-links-container {
     flex-direction: column;
@@ -214,7 +211,14 @@
   .footer-container {
     padding-top: 44px;
   }
+  .footer-container {
+    /* padding-left: 20px; */
+    gap: 30px;
+  }
   .footer-content {
     width: 91.79%;
+  }
+  .footer-bottom {
+    text-align: start;
   }
 }
