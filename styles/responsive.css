@@ -146,9 +146,9 @@
   .bar {
     display: block;
   }
-  .training-images {
-    /* width: 100%; */
-    /* border: 3px solid white; */
+  .training-exercise-section {
+    height: 396px;
+    margin-bottom: 66px;
   }
   .training-first-div {
     grid-template-columns: 1fr 1fr;
@@ -168,11 +168,15 @@
     color: rgb(255, 255, 255);
   }
   .training-image-4-p {
-    left: 30px;
-    bottom: 20px;
+    right: 2px;
+    top: 75px;
+    left: 10px;
   }
   .bmi-container {
     flex-direction: column;
+  }
+  .bmi-calculator-container {
+    margin-bottom: 66px;
   }
   .bmi-table-form-container {
     /* border: 2px solid white; */
