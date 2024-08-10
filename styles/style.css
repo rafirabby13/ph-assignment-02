@@ -606,15 +606,18 @@ select {
 }
 .one-day-pass {
   background-color: var(--bg-light);
-  padding: 40px 50px;
+  padding: 60px 50px;
   margin-top: 50px;
+  border-radius: 16px;
 }
 .monthly-pass {
   background-color: rgba(230, 83, 60, 0.924);
-  padding: 40px;
+  padding: 40px ;
   color: var(--bg);
   color: var(--bg-light);
   margin-bottom: 50px;
+  border-radius: 16px;
+
 }
 .monthly-pass p {
   /* color: var(--bg); */
