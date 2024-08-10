@@ -610,7 +610,7 @@ select {
   margin-top: 50px;
 }
 .monthly-pass {
-  background-color: var(--text-orange);
+  background-color: rgba(230, 83, 60, 0.924);
   padding: 40px;
   color: var(--bg);
   color: var(--bg-light);
