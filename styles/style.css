@@ -431,10 +431,11 @@ line-height: 18px;
   color: var(--text-white);
   font-size: 1.75rem;
   font-weight: 900;
+  margin-bottom: 14px;
 }
 .bmi-container {
   justify-content: space-between;
-  gap: 75px;
+  /* gap: 175px; */
   /* border: 5px solid white; */
 }
 .bmi-chart{
@@ -460,9 +461,11 @@ th {
 }
 td {
   color: var(--text-gray);
-
   font-size: 0.825rem;
   font-weight: 400;
+}
+.bmi-form{
+  width: 54%;
 }
 .calculate-bmi {
   flex-direction: column;
@@ -587,7 +590,7 @@ select {
   /* border: 2px solid white; */
 }
 .membership-header {
-  /* width: 50%; */
+  width: 60%;
   text-align: center;
   margin: 70px auto;
 }
@@ -645,6 +648,9 @@ select {
 
   margin-bottom: 20px;
 }
+
+
+
 /* footer section */
 footer {
   background-color: var(--bg-light);
@@ -661,6 +667,10 @@ footer {
 .footer-content {
   width: 41.79%;
   /* border: 2px solid white; */
+}
+.footer-title{
+  margin-bottom: 20px;
+  font-size: 70px;
 }
 .footer-links-container {
   gap: 75px;
