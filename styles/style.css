@@ -292,13 +292,13 @@ line-height: 18px;
   letter-spacing: 0.3px;
 }
 .run-image-div {
-  background-image: url("../images/run_2.png");
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/run.jpg");
+  background-position: 70% 32%;
+  background-repeat: no-repeat;
   border-radius: 18px;
   width: 44.5%;
-
   height: 312px;
+  background-size: 300%;
 }
 
 /* section : training and exercise */
