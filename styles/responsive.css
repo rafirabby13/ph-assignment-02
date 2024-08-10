@@ -208,6 +208,13 @@
   .habit-card {
     width: 50%;
   }
+  .membership-header {
+    width: 90%;
+  }
+  
+  .membership-title{
+    font-size: 1.7rem;
+  }
   .footer-container {
     padding-top: 44px;
     gap: 30px;
