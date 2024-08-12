@@ -175,6 +175,7 @@ line-height: 18px;
 .hero-content {
   width: 50%;
   /* border: 1px solid white; */
+  border: 2px solid white;
 }
 
 
