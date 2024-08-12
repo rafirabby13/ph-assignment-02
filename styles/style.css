@@ -189,7 +189,7 @@ line-height: 18px;
 }
 
 .services {
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border: 0.71px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
@@ -250,7 +250,9 @@ line-height: 18px;
   margin-top: 58px;
   gap: 40px;
   text-align: center;
+  /* border: 2px solid white; */
 }
+
 
 .habit-image {
   border-radius: 50%;
@@ -263,6 +265,7 @@ line-height: 18px;
   line-height: 18px;
   letter-spacing: 0.3px;
   margin-top: 6px;
+  margin-bottom: 0px;
 }
 
 /* run extra mile section */
