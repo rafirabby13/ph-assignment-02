@@ -74,6 +74,12 @@
   .text {
     font-size: 0.85rem;
   }
+  .tribhuj {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    /* translate: transform(-50%, -50%); */
+  }
 
   .habit-content {
     width: 100%;
