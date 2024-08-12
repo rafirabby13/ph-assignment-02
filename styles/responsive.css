@@ -1,17 +1,20 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
   .body {
     /* max-width: calc(100%-20px); */
     margin: 0 auto;
   }
+
   .section {
     max-width: calc(100% - 40px);
     margin: 0 auto;
     /* padding: 0px 20px; */
     /* border: 5px solid rgb(230, 23, 23); */
   }
+
   .text-title {
     font-size: 2rem;
   }
+
   .hero,
   .habit-content,
   .navbar,
@@ -22,58 +25,74 @@
   .bmi-header-content {
     width: 100%;
   }
+
   .hero {
     flex-direction: column;
 
     margin-bottom: 0px;
     gap: 3rem;
   }
-  .hero-content {
+
+  .hero-content,
+  .hero-banner {
     width: 100%;
   }
+
   .hero-content-container {
-    width: 72%;
+    width: 69%;
     margin-top: 0px;
   }
+
   .hero-content-title {
-    font-size: 2.25rem;
+    font-size: 2.55rem;
     line-height: 45px;
   }
+
+  .button-container {
+    flex-wrap: wrap;
+  }
+
   .shape {
     font-size: 4.5rem;
   }
+
   .services {
     padding: 11px 18px;
   }
+
   .video-tutorial {
     bottom: 271px;
+    bottom: 41%;
     left: 0px;
     align-items: center;
   }
+
   .free-workout {
     top: 40px;
+    top: 10%;
     right: 0px;
   }
+
   .no-club {
     display: inline-block;
   }
-  .hero-image {
-    width: 100%;
-  }
-  .hero-image img {
-    width: 100%;
 
-    margin: 0 auto;
+  .hero-banner {
+    width: 100%;
   }
+
   .number {
     font-size: 1.125rem;
   }
+
   .workout-number {
-    font-size: 1.9rem;
+    font-size: .9rem;
   }
+
   .text {
-    font-size: 0.85rem;
+    font-size: 0.55rem;
   }
+
   .tribhuj {
     position: absolute;
     top: 30%;
@@ -84,23 +103,26 @@
   .habit-content {
     width: 100%;
   }
+
   .run-image-div {
     width: 100%;
     height: 170px;
     background-position: center;
     background-size: cover;
   }
+
   .training-exercise-section {
     height: 520px;
 
     margin-top: 66px;
     margin-bottom: 20px;
   }
+
   .training-header {
     width: 100%;
     margin-bottom: 37px;
   }
-  
+
   .bmi-header-content {
     width: 90%;
     margin-bottom: 32px;
@@ -119,24 +141,30 @@
   .trainee-6 {
     display: none;
   }
+
   .button {
     display: flex;
   }
+
   .bmi-chart {
     width: 100%;
   }
+
   .habit-card-container {
     width: 100%;
     flex-direction: column;
     gap: 36px;
     align-items: center;
   }
+
   .pass {
     flex-direction: column;
   }
+
   .one-day-pass {
     margin-top: 0px;
   }
+
   .monthly-pass {
     margin-bottom: 0px;
   }
@@ -151,39 +179,50 @@
   .bar {
     display: block;
   }
+
   .training-exercise-section {
-    height: 396px;
+    border: 2px solid white;
+    height: 710px;
     margin-bottom: 66px;
   }
+
   .training-first-div {
     grid-template-columns: 1fr 1fr;
   }
+
   .ul-container,
   .training-image-3,
   .training-image-6 {
     display: none;
   }
+
   .training-second-div {
     grid-template-columns: 1fr 1.24fr;
   }
+
   .exercise-image {
-    height: 127px;
+    /* height: 127px; */
   }
+
   .training-image-1-p {
     color: rgb(255, 255, 255);
   }
+
   .training-image-4-p {
     right: 2px;
     top: 75px;
     left: 10px;
   }
+
   .bmi-container {
     flex-direction: column;
   }
+
   .bmi-calculator-container {
     margin-bottom: 66px;
-    margin-top: 100px;
+    margin-top: 30px;
   }
+
   .bmi-table-form-container {
     /* border: 2px solid white; */
     padding: 34px 0px 59px 0px;
@@ -192,24 +231,30 @@
   .bmi-container {
     gap: 42px;
   }
+
   .bmi-form {
     width: 100%;
   }
+
   .bmi-chart {
     /* border: 2px solid white;  */
     margin-top: 0px;
   }
+
   .meet-our-team {
     width: 100%;
     margin-bottom: 37px;
   }
+
   .team-header {
     width: 87%;
   }
+
   .image-container {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 37px;
   }
+
   .download-app {
     margin-left: 0rem;
   }
@@ -217,22 +262,312 @@
   .habit-card {
     width: 60%;
   }
+
   .membership-header {
-    width: 90%;
+    width: 100%;
+    /* text-align: start; */
   }
-  
-  .membership-title{
-    font-size: 2rem;
+
+  .membership-title {
+    font-size: 1.9rem;
   }
+
   .footer-container {
     padding-top: 44px;
     gap: 30px;
 
   }
-  
+
   .footer-content {
     width: 91.79%;
   }
+
+  .footer-bottom {
+    text-align: start;
+    padding: 41px 0px 57px 0px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .body {
+    /* max-width: calc(100%-20px); */
+    margin: 0 auto;
+  }
+
+  .section {
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    /* padding: 0px 20px; */
+    /* border: 5px solid rgb(230, 23, 23); */
+  }
+
+  .text-title {
+    font-size: 2rem;
+  }
+
+  .hero,
+  .habit-content,
+  .navbar,
+  .run-content,
+  .run-image-div,
+  .run-btn,
+  .team-header,
+  .bmi-header-content {
+    width: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+
+    margin-bottom: 0px;
+    gap: 3rem;
+  }
+
+  .hero-content,
+  .hero-banner {
+    width: 100%;
+  }
+
+  .hero-content-container {
+    width: 69%;
+    margin-top: 0px;
+  }
+
+  .hero-content-title {
+    font-size: 2.55rem;
+    line-height: 45px;
+  }
+
+  .button-container {
+    flex-wrap: wrap;
+  }
+
+  .shape {
+    font-size: 4.5rem;
+  }
+
+  .services {
+    padding: 11px 18px;
+  }
+
+  .video-tutorial {
+    bottom: 271px;
+    bottom: 41%;
+    left: 0px;
+    align-items: center;
+  }
+
+  .free-workout {
+    top: 40px;
+    top: 10%;
+    right: 0px;
+  }
+
+  .no-club {
+    display: inline-block;
+  }
+
+  .hero-banner {
+    width: 100%;
+  }
+
+  .number {
+    font-size: 1rem;
+  }
+
+  .workout-number {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 0.55rem;
+  }
+
+  .tribhuj {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    /* translate: transform(-50%, -50%); */
+  }
+
+  .habit-content {
+    width: 100%;
+  }
+
+  .run-image-div {
+    width: 100%;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .training-exercise-section {
+    height: 530px;
+    /* border: 1px solid white; */
+    margin-top: 66px;
+    margin-bottom: 36px;
+  }
+
+  .training-header {
+    width: 100%;
+    margin-bottom: 37px;
+  }
+
+  .bmi-header-content {
+    width: 90%;
+    margin-bottom: 32px;
+  }
+
+  .run-extra-mile {
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 33px 35px;
+    gap: 31px;
+    margin-top: 66px;
+  }
+
+  .club,
+  .trainee-1,
+  .trainee-6 {
+    display: none;
+  }
+
+  .button {
+    display: flex;
+  }
+
+  .bmi-chart {
+    width: 100%;
+  }
+
+  .habit-card-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+  }
+
+  .pass {
+    flex-direction: column;
+  }
+
+  .one-day-pass {
+    margin-top: 0px;
+  }
+
+  .monthly-pass {
+    margin-bottom: 0px;
+  }
+
+  .footer-container,
+  .footer-links-container {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .bar {
+    display: block;
+  }
+
+  
+
+  .training-first-div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ul-container,
+  .training-image-3,
+  .training-image-6 {
+    display: none;
+  }
+
+  .training-second-div {
+    grid-template-columns: 1fr 1.24fr;
+  }
+
+  .exercise-image {
+    height: 127px;
+  }
+
+  .training-image-1-p {
+    color: rgb(255, 255, 255);
+  }
+
+  .training-image-4-p {
+    right: 2px;
+    top: 75px;
+    left: 10px;
+  }
+
+  .bmi-container {
+    flex-direction: column;
+  }
+
+  .bmi-calculator-container {
+    margin-bottom: 66px;
+    /* margin-top: 100px; */
+  }
+
+  .bmi-table-form-container {
+    /* border: 2px solid white; */
+    padding: 34px 0px 59px 0px;
+  }
+
+  .bmi-container {
+    gap: 42px;
+  }
+
+  .bmi-form {
+    width: 100%;
+  }
+
+  .bmi-chart {
+    /* border: 2px solid white;  */
+    margin-top: 0px;
+  }
+
+  .meet-our-team {
+    width: 100%;
+    margin-bottom: 37px;
+  }
+
+  .team-header {
+    width: 87%;
+  }
+
+  .image-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 37px;
+  }
+
+  .download-app {
+    margin-left: 0rem;
+  }
+
+  .habit-card {
+    width: 60%;
+  }
+
+  .membership-header {
+    width: 100%;
+    /* text-align: start; */
+  }
+
+  .membership-title {
+    font-size: 1.9rem;
+  }
+
+  .footer-container {
+    padding-top: 44px;
+    gap: 30px;
+
+  }
+
+  .footer-content {
+    width: 91.79%;
+  }
+
   .footer-bottom {
     text-align: start;
     padding: 41px 0px 57px 0px;
@@ -250,10 +585,57 @@
 
 
 
+
+@media screen and (min-width: 992px) and (max-width: 1290px) {
+
+  .hero {
+    /* gap: 150px; */
+  }
+
+  .hero-content-title {
+    font-size: 2.5rem;
+    line-height: 55px;
+  }
+
+.shape{
+  font-size: 5rem;
+}
+  .hero-banner {
+    width: 350px;
+    background-size: cover;
+    /* border: 2px solid red; */
+
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  .run-extra-mile {
+    gap: 10px;
+  }
+
+  .run-title {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .body {
     margin: 0 auto;
   }
+
   .section {
     max-width: calc(100% - 40px);
     margin: 0 auto;
@@ -269,18 +651,22 @@
   .bmi-header-content {
     width: 100%;
   }
+
   .nav-link-container {
     gap: 2rem;
   }
+
   .hero {
     flex-direction: column;
 
     margin-bottom: 0px;
     gap: 1px;
   }
+
   .hero-content {
     width: 100%;
   }
+
   .hero-content-container {
     width: 72%;
     margin-top: 0px;
@@ -289,32 +675,40 @@
   .services {
     padding: 11px 18px;
   }
+
   .video-tutorial {
     bottom: 271px;
     left: 0px;
     align-items: center;
   }
+
   .free-workout {
     top: 40px;
     right: 0px;
   }
+
   .no-club {
     display: inline-block;
   }
+
   .hero-image {
     width: 100%;
   }
+
   .hero-image img {
     width: 100%;
 
     margin: 0 auto;
   }
+
   .number {
     font-size: 1.125rem;
   }
+
   .workout-number {
     font-size: 1.9rem;
   }
+
   .text {
     font-size: 0.85rem;
   }
@@ -322,21 +716,25 @@
   .habit-content {
     width: 100%;
   }
+
   .run-image-div {
     background-image: url("../images/run.jpg");
     width: 100%;
     height: 270px;
   }
+
   .training-exercise-section {
     height: 520px;
 
     margin-top: 66px;
     margin-bottom: 20px;
   }
+
   .training-header {
     width: 100%;
     margin-bottom: 37px;
   }
+
   .bmi-header-content {
     width: 90%;
     margin-bottom: 32px;
@@ -356,9 +754,11 @@
   .button {
     display: flex;
   }
+
   .bmi-chart {
     width: 100%;
   }
+
   .habit-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -366,12 +766,15 @@
     gap: 1rem;
     /* flex-wrap: wrap; */
   }
+
   .pass {
     /* flex-direction: column; */
   }
+
   .one-day-pass {
     margin-top: 0px;
   }
+
   .monthly-pass {
     margin-bottom: 0px;
   }
@@ -386,6 +789,7 @@
     height: 396px;
     margin-bottom: 66px;
   }
+
   .training-first-div {
     grid-template-columns: 1fr 1fr;
   }
@@ -394,26 +798,33 @@
   .training-image-6 {
     display: none;
   }
+
   .training-second-div {
     grid-template-columns: 1fr 1.24fr;
   }
+
   .exercise-image {
     height: 127px;
   }
+
   .training-image-1-p {
     color: rgb(255, 255, 255);
   }
+
   .training-image-4-p {
     right: 2px;
     top: 75px;
     left: 10px;
   }
+
   .bmi-container {
     /* flex-direction: column; */
   }
+
   .bmi-calculator-container {
     margin-bottom: 66px;
   }
+
   .bmi-table-form-container {
     /* border: 2px solid white; */
     padding: 34px 0px 59px 0px;
@@ -422,13 +833,16 @@
   .bmi-container {
     gap: 42px;
   }
+
   .bmi-form {
     width: 100%;
   }
+
   .bmi-chart {
     /* border: 2px solid white;  */
     margin-top: 0px;
   }
+
   /* .meet-our-team {
     width: 100%;
     margin-bottom: 37px;
@@ -436,10 +850,12 @@
   .team-header {
     width: 87%;
   }
+
   .image-container {
     /* grid-template-columns: repeat(1, 1fr); */
     margin-top: 78px;
   }
+
   .download-app {
     margin-left: 0rem;
   }
@@ -447,18 +863,22 @@
   .habit-card {
     width: 50%;
   }
+
   .footer-container {
     padding-top: 44px;
     gap: 30px;
 
   }
-  .footer-logo{
+
+  .footer-logo {
     font-size: 70px;
   }
+
   .footer-content {
     width: 91.79%;
     text-align: center;
   }
+
   .footer-bottom {
     text-align: center;
   }

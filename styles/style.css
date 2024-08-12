@@ -13,7 +13,9 @@
 .body {
   font-family: "Inter", sans-serif;
   background: var(--bg);
+  width: 100%;
 }
+
 .allura-regular {
   font-family: "Allura", cursive;
   font-weight: 400;
@@ -24,6 +26,7 @@
   max-width: 69.1%;
   margin: 0 auto;
   height: auto;
+  /* overflow: hidden; */
 }
 
 :root {
@@ -33,9 +36,11 @@
   --bg: rgb(0, 0, 0);
   --bg-light: rgb(34, 34, 34);
 }
+
 .hide {
   display: none;
 }
+
 .display-flex {
   display: flex;
 }
@@ -46,12 +51,14 @@
   font-weight: 900;
   margin-bottom: 14px;
 }
+
 .text-secondary {
   color: var(--text-white);
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 14px;
 }
+
 .text-description {
   color: var(--text-gray);
   font-size: 0.875rem;
@@ -60,17 +67,20 @@
   letter-spacing: 0.3px;
   margin-bottom: 34px;
 }
+
 .team-members-title {
   color: var(--text-white);
   font-size: 1.25rem;
   font-weight: 900;
   margin-bottom: 3px;
 }
+
 .team-members-position {
   color: var(--text-gray);
   font-size: 0.85rem;
   font-weight: 400;
 }
+
 .btn {
   border-radius: 42px;
   background: rgb(230, 83, 60);
@@ -80,12 +90,14 @@
   border: none;
   padding: 16px 36px;
 }
+
 .card-title {
   color: var(--text-white);
   font-size: 1.125rem;
   font-weight: 600;
   margin-top: 30px;
 }
+
 /* .card-description{
     color: var(--text-gray);
 font-size: 14px;
@@ -96,24 +108,25 @@ line-height: 18px;
 /* header sty;e */
 
 .header-section {
-  background: linear-gradient(
-    to top,
-    var(--bg),
-    rgba(255, 255, 255, 0.146),
-    var(--bg)
-  );
+  background: linear-gradient(to top,
+      var(--bg),
+      rgba(255, 255, 255, 0.146),
+      var(--bg));
 }
+
 /* navbar style */
 .navbar {
   justify-content: space-between;
   align-items: center;
   padding: 57px 0px 32px 0px;
 }
+
 .logo {
   color: var(--text-orange);
   font-size: 2.25rem;
   font-weight: 800;
 }
+
 .nav-links {
   color: var(--text-white);
   font-size: 1.125rem;
@@ -124,21 +137,26 @@ line-height: 18px;
   gap: 4rem;
   align-items: center;
 }
+
 .nav-link-container li {
   list-style: none;
 }
+
 .nav-link-container a {
   text-decoration: none;
 }
+
 .special {
   padding: 8px 20px;
   background-color: var(--text-orange);
   border-radius: 46px;
   font-weight: 600;
 }
+
 .bar {
   display: none;
 }
+
 .bar .icon {
   color: var(--text-white);
   height: 16px;
@@ -148,15 +166,22 @@ line-height: 18px;
 /* hero section */
 
 .hero {
-  gap: 10.438rem;
-  margin-bottom: 100px;
   align-items: center;
   justify-content: space-between;
+  gap: 150px;
+  margin-bottom: 100px;
 }
-.hero-content-container {
-  /* width: 49.05%; */
-  /* border: 2px solid white; */
+
+.hero-content {
+  width: 50%;
+  /* border: 1px solid white; */
 }
+
+
+
+
+
+
 .hero-content-title {
   color: rgb(255, 255, 255);
   font-size: 4.875rem;
@@ -164,28 +189,51 @@ line-height: 18px;
   margin-bottom: 28px;
   line-height: 90px;
 }
-.shape{
+
+.shape {
   font-family: 'Miama', sans-serif;
   font-weight: 400;
   font-size: 8.875rem;
-                                                
+
 }
 
 .hero-description {
   font-size: 1rem;
   margin-bottom: 28px;
 }
+
+.button-container {
+  /* border: 1px solid white; */
+  display: flex;
+  gap: 14px;
+}
+
 .download-app {
   background-color: var(--bg);
   border: 1px solid var(--text-white);
-  margin-left: 14px;
+
 
 }
-.hero-image {
-  position: relative;
-}
+
 .no-club {
   display: none;
+}
+
+
+
+
+
+.hero-banner {
+  width: 50%;
+  width: 350px;
+  /* border: 1px solid red; */
+  height: 100px;
+  background-image: url('../images/Images\ 2.png');
+  height: 588px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
 }
 
 .services {
@@ -196,23 +244,30 @@ line-height: 18px;
   padding: 20px 23px;
   color: var(--text-white);
 }
+
 .number {
   color: rgb(250, 250, 249);
   font-size: 1.5rem;
   font-weight: 900;
 }
+
 .text {
   color: rgba(239, 237, 232, 0.65);
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
+
 .video-tutorial {
   position: absolute;
-  bottom: 63px;
-  left: -120px;
+  /* bottom: 63px;
+  left: -120px; */
   align-items: center;
+  bottom: 14%;
+  left: -35%;
+
 }
+
 .circle {
   background-color: var(--text-orange);
   width: 40px;
@@ -221,20 +276,35 @@ line-height: 18px;
   margin-right: 12px;
   position: relative;
 }
+
 .tribhuj {
   position: absolute;
   top: -398%;
   left: 25%;
   /* translate: transform(-50%, -50%); */
 }
+
 .free-workout {
   position: absolute;
-  top: 110px;
-  right: -96px;
+  /* top: 110px;
+  right: -96px; */
+  top: 20%;
+  right: -28%;
 }
+
 .workout-number {
   font-size: 2.5rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* habit section */
 
@@ -245,20 +315,27 @@ line-height: 18px;
 }
 
 .habit-card-container {
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 58px;
   gap: 40px;
+  /* border: 2px solid green; */
   text-align: center;
-  /* border: 2px solid white; */
 }
 
+.habit-card {
+  /* border: 1px solid white; */
+  width: 25%;
+}
 
 .habit-image {
+  width: 100%;
   border-radius: 50%;
   border: 5px solid var(--bg-light);
+
 }
-.card-description{
+
+.card-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: .85rem;
   font-weight: 400;
@@ -282,9 +359,11 @@ line-height: 18px;
   gap: 165px;
   padding: 40px 32px 40px 54px;
 }
+
 .run-content {
   width: 41.8%;
 }
+
 .run-title {
   margin-top: 0px;
 }
@@ -294,6 +373,7 @@ line-height: 18px;
   line-height: 24px;
   letter-spacing: 0.3px;
 }
+
 .run-image-div {
   background-image: url("../images/run.jpg");
   background-position: 70% 32%;
@@ -310,21 +390,27 @@ line-height: 18px;
   margin-bottom: 100px;
   height: 590px;
 }
+
 .training-header {
-  width: 63.3%;
+  /* width: 63.3%; */
   margin-bottom: 58px;
 }
+
 .training-images {
-  height: auto;
+  /* height: 500px; */
+  /* border: 2px solid red; */
 }
+
 .training-first-div {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
+
 .training-second-div {
   display: grid;
   grid-template-columns: 1.475fr 1fr 1.2fr;
 }
+
 .exercise-image {
   background-size: cover;
   background-position: center;
@@ -334,53 +420,46 @@ line-height: 18px;
 .training-image-1 {
   height: 201.5px;
 
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(6, 255, 210, 0.5),
-      rgba(6, 255, 210, 0.5)
-    ),
+      rgba(6, 255, 210, 0.5)),
     url("../images/exercise1.png");
 }
+
 .training-image-2 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(255, 0, 0, 0.3),
-      rgba(255, 0, 0, 0.3)
-    ),
+      rgba(255, 0, 0, 0.3)),
     url("../images/exercise2.png");
 }
+
 .training-image-3 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("../images/exercise3.png");
 }
+
 .training-image-4 {
   height: 201.5px;
 
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("../images/exercise4.png");
 }
+
 .training-image-5 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgb(68, 255, 0, 0.3),
-      rgb(68, 255, 0, 0.3)
-    ),
+      rgb(68, 255, 0, 0.3)),
     url("../images/exercise5.png");
 }
+
 .training-image-6 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 71, 255, 0.3),
-      rgba(0, 71, 255, 0.3)
-    ),
+      rgba(0, 71, 255, 0.3)),
     url("../images/exercise6.png");
 }
 
@@ -390,6 +469,7 @@ line-height: 18px;
   font-size: 0.875rem;
   font-weight: 500;
 }
+
 .training-image-1-p,
 .training-image-3-p,
 .training-image-5-p,
@@ -398,15 +478,18 @@ line-height: 18px;
   bottom: 20px;
 
 }
+
 .training-image-4-p {
   right: 31px;
   top: 25px;
 
 }
+
 .training-image-2-p {
   left: 31px;
   top: 25px;
 }
+
 .training-image-1-p {
   color: black;
 }
@@ -417,6 +500,7 @@ line-height: 18px;
   margin-bottom: 100px;
   height: auto;
 }
+
 .bmi-table-form-container {
   background-color: var(--bg-light);
   padding: 49px 0px 53px 0px;
@@ -436,17 +520,21 @@ line-height: 18px;
   font-weight: 900;
   margin-bottom: 14px;
 }
+
 .bmi-container {
   justify-content: space-between;
-  /* gap: 175px; */
+  gap: 55px; 
   /* border: 5px solid white; */
 }
-.bmi-chart{
+
+.bmi-chart {
   width: 50%;
 }
+
 .table {
   margin-top: 52px;
 }
+
 .table,
 th,
 td {
@@ -457,26 +545,32 @@ td {
   color: var(--text-white);
   text-align: start;
 }
+
 th {
   font-size: 1rem;
   font-weight: 500;
   width: 159px;
 }
+
 td {
   color: var(--text-gray);
   font-size: 0.825rem;
   font-weight: 400;
 }
-.bmi-form{
+
+.bmi-form {
   width: 54%;
 }
+
 .calculate-bmi {
   flex-direction: column;
   gap: 12px;
 }
+
 .input-div {
   gap: 12px;
 }
+
 .input,
 select {
   width: 100%;
@@ -486,13 +580,16 @@ select {
   padding: 12px 40px 12px 20px;
   border: none;
 }
+
 select {
   color: rgba(255, 255, 255, 0.6);
   /* padding: 12px 40px 12px 20px; */
 }
+
 ::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .calculate-btn {
   margin-top: 34px;
 }
@@ -505,6 +602,7 @@ select {
   margin: 0 auto;
   align-items: center;
 }
+
 .team-header {
   width: 671px;
   margin: 0 auto;
@@ -521,9 +619,11 @@ select {
   margin-top: 78px;
   padding: 20px;
 }
+
 .team-members {
   border-radius: 18px;
 }
+
 .trainee {
   border-radius: 18px;
   height: 272px;
@@ -531,52 +631,46 @@ select {
   background-position: center;
   position: relative;
 }
+
 .trainee-1 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("../images/trainer1.png");
 }
+
 .trainee-2 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("../images/trainer2.png");
 }
+
 .trainee-3 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("../images/trainer3.png");
 }
+
 .trainee-4 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("../images/trainer4.png");
 }
+
 .trainee-5 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("../images/trainer5.png");
 }
+
 .trainee-6 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url("../images/trainer6.png");
 }
 
@@ -592,65 +686,80 @@ select {
   margin: 70px auto;
   /* border: 2px solid white; */
 }
+
 .membership-header {
-  width: 60%;
+  width: 90%;
   text-align: center;
   margin: 70px auto;
+  /* border: 2px solid white; */
 }
+
 .membership-logo {
   color: var(--text-orange);
 }
+
 .pass {
   justify-content: space-between;
   gap: 20px;
 }
+
 .pass h1 {
   font-size: 2rem;
 }
+
 .one-day-pass {
   background-color: var(--bg-light);
   padding: 60px 50px;
   margin-top: 50px;
   border-radius: 16px;
 }
+
 .monthly-pass {
   background-color: rgba(230, 83, 60, 0.924);
-  padding: 40px ;
+  padding: 40px;
   color: var(--bg);
   color: var(--bg-light);
   margin-bottom: 50px;
   border-radius: 16px;
 
 }
+
 .monthly-pass p {
   /* color: var(--bg); */
   font-weight: 700;
 }
+
 .monthly-pass .btn {
   background-color: var(--bg-light);
   color: var(--text-orange);
   color: var(--text-white);
 }
+
 .monthly-pass .price {
   /* border-top: 1px solid var(--bg); */
   /* padding-top: 20px; */
   border-bottom: 3px solid var(--bg);
   padding-bottom: 2px;
 }
+
 .monthly-pass .basic {
   padding-top: 10px;
   margin-bottom: 20px;
 }
+
 .pass .btn {
   border-radius: 8px;
 }
+
 .price {
   border-bottom: 3px solid var(--text-orange);
   padding-bottom: 2px;
 }
+
 .basic {
   font-size: 1rem;
   padding-top: 10px;
+  line-height: 30px;
 
   margin-bottom: 20px;
 }
@@ -666,42 +775,49 @@ footer {
 .footer-container {
   justify-content: space-between;
   align-items: center;
-  /* gap: 102px; */
-  /* padding: 66px 0px 0px 0px; */
+  gap: 6rem;
   padding-top: 66px;
 }
+
 .footer-content {
   width: 41.79%;
   /* border: 2px solid white; */
 }
-.footer-title{
+
+.footer-title {
   margin-bottom: 20px;
   font-size: 70px;
 }
+
 .footer-links-container {
   gap: 75px;
 }
+
 .footer-links {
   /* border: 2px solid white; */
 }
+
 .footer-links-title {
   color: var(--text-white);
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 40px;
 }
-.footer-links-list {
-}
+
+.footer-links-list {}
+
 .footer-links-list li {
   list-style: none;
   margin-top: 20px;
 }
+
 .footer-links-list a {
   text-decoration: none;
   color: var(--text-gray);
   font-size: 1.5rem;
   font-weight: 400;
 }
+
 .footer-bottom {
   text-align: center;
   padding: 36px 0px;
