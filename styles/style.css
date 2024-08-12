@@ -175,7 +175,7 @@ line-height: 18px;
 .hero-content {
   width: 50%;
   /* border: 1px solid white; */
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 
@@ -524,7 +524,7 @@ line-height: 18px;
 
 .bmi-container {
   justify-content: space-between;
-  gap: 55px; 
+  gap: 55px;
   /* border: 5px solid white; */
 }
 
@@ -716,12 +716,16 @@ select {
 }
 
 .monthly-pass {
-  background-color: rgba(230, 83, 60, 0.924);
   padding: 40px;
-  color: var(--bg);
   color: var(--bg-light);
   margin-bottom: 50px;
-  border-radius: 16px;
+  border-radius: 7px;
+  /* background: rgba(255, 5, 255, 0.31); */
+  background: rgba(230, 83, 60, 0.624);
+  background: var(--text-orange);
+  background: linear-gradient(180deg,
+      rgba(230, 83, 60, 0.124),
+      --text-orange) 50%;
 
 }
 
