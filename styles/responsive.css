@@ -186,7 +186,7 @@
   }
 
   .training-exercise-section {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 710px;
     margin-bottom: 66px;
   }
@@ -275,6 +275,10 @@
 
   .membership-title {
     font-size: 1.9rem;
+  }
+
+  .pass-card {
+    width: 100%;
   }
 
   .footer-container {
@@ -471,6 +475,10 @@
     margin-bottom: 0px;
   }
 
+  .pass-card {
+    width: 100%;
+  }
+
   .footer-container,
   .footer-links-container {
     flex-direction: column;
@@ -638,9 +646,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-.pass-card {
-  width: 100%;
-}
+
+  .pass-card {
+    width: 100%;
+  }
+
   .first-pass {
     grid-row: 2 / 3;
     grid-column: 1 / 3;
@@ -680,7 +690,12 @@
     max-width: calc(100% - 40px);
     margin: 0 auto;
   }
-
+.section {
+  max-width: 69.1%;
+  margin: 0 auto;
+  height: auto;
+  /* overflow: hidden; */
+}
   .hero,
   .habit-content,
   .navbar,
@@ -756,11 +771,37 @@
   .habit-content {
     width: 100%;
   }
+    .run-extra-mile {
+      /* flex-direction: column; */
+      /* align-items: center; */
+      padding: 31px 33px 35px;
+      gap: 31px;
+      margin-top: 60px;
+    }
+
+  .run-content {
+    width: 61.8%;
+  }
+
+  .run-title {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+
+  .run-description {
+    font-size: .7rem;
+    margin-bottom: 14px;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+  }
 
   .run-image-div {
-    background-image: url("../images/run.jpg");
+    background-position: 70% 32%;
+    border-radius: 18px;
     width: 100%;
-    height: 270px;
+    /* height: 312px; */
+    padding-top: 35%;
+    background-size: 300%;
   }
 
   .training-exercise-section {
@@ -780,12 +821,7 @@
     margin-bottom: 32px;
   }
 
-  .run-extra-mile {
-    /* flex-direction: column; */
-    /* align-items: center; */
-    padding: 31px 33px 35px;
-    gap: 31px;
-  }
+  
 
   .no-club {
     display: none;
@@ -808,20 +844,36 @@
   }
 
   .pass {
-    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 
-  .one-day-pass,
-  .monthly-pass {
-    margin-top: 0px;
-    padding: 20px 20px;
+  .pass-card {
+    width: 100%;
   }
 
+  .first-pass {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    margin-top: 0;
+  }
+
+  .third-pass {
+    grid-row: 2 / 3;
+    grid-column: 3 / 5;
+    margin-top: 0;
+  }
+
+  .second-pass {
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+    margin-bottom: 0;
+  }
 
 
   .footer-container {
     flex-direction: column;
-    align-items: center;
     gap: 30px;
   }
 
@@ -872,6 +924,8 @@
 
   .bmi-container {
     gap: 42px;
+    margin-top: 100px;
+    /* border: 10px solid red; */
   }
 
   .bmi-form {
@@ -905,8 +959,11 @@
   }
 
   .footer-container {
+    align-items: start;
+    /* justify-content: start; */
     padding-top: 44px;
     gap: 30px;
+    /* border: 2px solid red; */
 
   }
 
@@ -914,12 +971,19 @@
     font-size: 70px;
   }
 
+  .footer-links-container {
+    /* justify-content: start;
+    align-items: start;
+    text-align: start; */
+    /* border: 2px solid white; */
+  }
+
   .footer-content {
     width: 91.79%;
-    text-align: center;
+    text-align: start;
   }
 
   .footer-bottom {
-    text-align: center;
+    text-align: start;
   }
 }
