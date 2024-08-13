@@ -391,6 +391,7 @@ line-height: 18px;
 .training-exercise-section {
   margin-bottom: 100px;
   height: 590px;
+  /* border: 2px solid white; */
 }
 
 .training-header {
