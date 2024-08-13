@@ -119,17 +119,7 @@
     background-size: cover;
   }
 
-  .training-exercise-section {
-    height: 520px;
 
-    margin-top: 66px;
-    margin-bottom: 20px;
-  }
-
-  .training-header {
-    width: 100%;
-    margin-bottom: 37px;
-  }
 
   .bmi-header-content {
     width: 90%;
@@ -186,14 +176,22 @@
     display: block;
   }
 
+
+
   .training-exercise-section {
     /* border: 2px solid white; */
-    height: 710px;
+    margin-top: 66px;
+    /* height: 710px; */
     margin-bottom: 66px;
   }
 
   .training-first-div {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .training-header {
+    width: 100%;
+    margin-bottom: 37px;
   }
 
   .ul-container,
@@ -418,17 +416,7 @@
     background-size: cover;
   }
 
-  .training-exercise-section {
-    height: 530px;
-    /* border: 1px solid white; */
-    margin-top: 66px;
-    margin-bottom: 36px;
-  }
 
-  .training-header {
-    width: 100%;
-    margin-bottom: 37px;
-  }
 
   .bmi-header-content {
     width: 90%;
@@ -491,6 +479,17 @@
     display: block;
   }
 
+  .training-exercise-section {
+    /* height: 530px; */
+    /* border: 1px solid white; */
+    margin-top: 66px;
+    margin-bottom: 36px;
+  }
+
+  .training-header {
+    width: 100%;
+    margin-bottom: 37px;
+  }
 
 
   .training-first-div {
@@ -507,9 +506,6 @@
     grid-template-columns: 1fr 1.24fr;
   }
 
-  .exercise-image {
-    height: 127px;
-  }
 
   .training-image-1-p {
     color: rgb(255, 255, 255);
@@ -836,17 +832,7 @@
     background-size: 300%;
   }
 
-  .training-exercise-section {
-    height: 520px;
-
-    margin-top: 66px;
-    margin-bottom: 20px;
-  }
-
-  .training-header {
-    width: 100%;
-    margin-bottom: 37px;
-  }
+  
 
   .bmi-header-content {
     width: 50%;
@@ -910,9 +896,14 @@
     gap: 30px;
   }
 
+
+.training-header {
+  width: 100%;
+  margin-bottom: 37px;
+}
   .training-exercise-section {
-    height: 396px;
-    margin-bottom: 66px;
+  margin-top: 66px;
+    /* margin-bottom: 66px; */
   }
 
   .training-first-div {
@@ -928,10 +919,7 @@
     grid-template-columns: 1fr 1.24fr;
   }
 
-  .exercise-image {
-    height: 127px;
-  }
-
+  
   .training-image-1-p {
     color: rgb(255, 255, 255);
   }
@@ -948,7 +936,7 @@
 
   .bmi-calculator-container {
     margin-bottom: 66px;
-    margin-top: 150px;
+    margin-top: 70px;
   }
 
   .bmi-table-form-container {
