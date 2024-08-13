@@ -607,14 +607,22 @@
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1290px) {
+@media screen and (min-width: 992px) and (max-width: 1222px) {
 
   .hero {
     /* gap: 150px; */
   }
+  .hero-content{
+    /* width: auto; */
+    /* border: 1px solid white; */
+  }
+  .hero-content .btn{
+    /* padding: 12px px; */
+  }
 
   .hero-content-title {
-    font-size: 2.5rem;
+    width: 100%;
+    font-size: 2.9rem;
     line-height: 55px;
   }
 
@@ -623,14 +631,16 @@
   }
 
   .hero-banner {
-    width: 350px;
+    width: 450px;
     background-size: cover;
+
     /* border: 2px solid red; */
 
   }
 
   .button-container {
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
   }
 
   .run-extra-mile {
