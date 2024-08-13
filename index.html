@@ -6,6 +6,7 @@
         <title>My Fitness Website</title>
         <link rel="stylesheet" href="styles/style.css" />
         <link rel="stylesheet" href="styles/responsive.css" />
+
     </head>
     <body class="body">
         <header class="header-section">
@@ -71,7 +72,6 @@
                     </div>
                 </section>
 
-               
             </div>
         </header>
         <main>
@@ -132,8 +132,6 @@
                 </div>
             </section>
 
-
-            
             <section class="training-exercise-section   section">
                 <div class="training-header">
                     <h1 class="text-title">Training and Exercise</h1>
@@ -182,9 +180,6 @@
                 </div>
 
             </section>
-
-
-
 
             <section class="bmi-calculator-container">
                 <div>
@@ -240,23 +235,29 @@
                                     fitness journey. </p>
 
                                 <form class="calculate-bmi display-flex">
-                                    <div class="display-flex input-div">
+                                    <div class="display-flex1 input-div">
                                         <input class="input" type="text"
                                             placeholder="Height/cm">
                                         <input class="input" type="text"
                                             placeholder="Weight/kg">
                                     </div>
-                                    <div class="display-flex input-div">
-                                        <input class="input" type="text"
-                                            placeholder="Weight/kg">
-                                        <select>
-                                            <option value="Sex">Sex</option>
-                                            <option value="Male">Male</option>
-                                            <option
-                                                value="Female">Female</option>
-                                        </select>
+                                    <div
+                                        class="display-flex1 input-div input-select">
+                                        <div>
+                                            <input class="input" type="text"
+                                                placeholder="Weight/kg">
+                                        </div>
+                                        <div class="select">
+                                            <select>
+                                                <option value="Sex">Sex</option>
+                                                <option
+                                                    value="Male">Male</option>
+                                                <option
+                                                    value="Female">Female</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <div>
+                                    <div class="select">
                                         <select>
                                             <option value="Sex">Select an
                                                 activity factor</option>
@@ -278,7 +279,12 @@
                 <section class="meet-our-team section">
                     <div class="team-header">
                         <h1 class="text-title">Meet Our Team</h1>
-                        <p class="text-description">Our dedicated team of fitness experts is here to guide, motivate, and support you every step of the way. With a passion for health and wellness, we bring a wealth of knowledge and experience to help you achieve your fitness goals.</p>
+                        <p class="text-description">Our dedicated team of
+                            fitness experts is here to guide, motivate, and
+                            support you every step of the way. With a passion
+                            for health and wellness, we bring a wealth of
+                            knowledge and experience to help you achieve your
+                            fitness goals.</p>
                     </div>
 
                     <div class="image-container">
@@ -325,9 +331,6 @@
                     </div>
 
                 </section>
-
-
-
 
                 <section class="membership section">
                     <div class="membership-header">
@@ -381,73 +384,78 @@
                             <button class="btn">Choose Package</button>
                         </div>
                         <div class="one-day-pass third-pass pass-card">
-                           <div class="pass-content">
-                             <h1 class="text-title">Yearly Pass
-                            </h1>
-                            <h1 class="text-title price">$99/Per month</h1>
-                            <div class="text-description">
-                                <h1 class=" basic">Premium Plan
+                            <div class="pass-content">
+                                <h1 class="text-title">Yearly Pass
                                 </h1>
-                                <!-- <p><i class="fa-solid fa-check-double"></i> Free
+                                <h1 class="text-title price">$99/Per month</h1>
+                                <div class="text-description">
+                                    <h1 class=" basic">Premium Plan
+                                    </h1>
+                                    <!-- <p><i class="fa-solid fa-check-double"></i> Free
                                     health assessments
                                 </p> -->
-                                <p><i class="fa-solid fa-check-double"></i>
-                                    Discounted group classes</p>
-                                <p><i class="fa-solid fa-check-double"></i> Up
-                                    to 4 family members
-                                </p>
-                                <p><i class="fa-solid fa-check-double"></i>
-                                    Senior fitness classes
-                                </p>
-                                <p><i class="fa-solid fa-check-double"></i>
-                                    Unlimited group classes
-                                </p>
+                                    <p><i class="fa-solid fa-check-double"></i>
+                                        Discounted group classes</p>
+                                    <p><i class="fa-solid fa-check-double"></i>
+                                        Up
+                                        to 4 family members
+                                    </p>
+                                    <p><i class="fa-solid fa-check-double"></i>
+                                        Senior fitness classes
+                                    </p>
+                                    <p><i class="fa-solid fa-check-double"></i>
+                                        Unlimited group classes
+                                    </p>
+                                </div>
+                                <button class="btn">Choose Package</button>
                             </div>
-                            <button class="btn">Choose Package</button>
-                           </div>
                         </div>
                     </div>
 
                 </section>
             </main>
-            <footer >
+            <footer>
                 <div class="section">
                     <div class="footer-container  display-flex">
-                    <div class="footer-content">
-                        <h1 class="footer-title logo"><em
-                                class="footer-logo">Zenith</em></h1>
-                        <p class="text-description">We believe in transforming
-                            lives through fitness. Our dedicated team is here to
-                            support and motivate you every step of the way.
-                            Whether you’re just starting your fitness journey or
-                            aiming to reach new heights, we provide the tools
-                            and expertise to help you succeed. </p>
-                    </div>
-                    <div class="footer-links-container display-flex">
-                        <div class="footer-links">
-                            <h1 class="footer-links-title">Dive In</h1>
-                            <div class="footer-links-list">
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Affiliate Program</a></li>
-                                <li><a href="#">About Us</a></li>
+                        <div class="footer-content">
+                            <h1 class="footer-title logo"><em
+                                    class="footer-logo">Zenith</em></h1>
+                            <p class="text-description">We believe in
+                                transforming
+                                lives through fitness. Our dedicated team is
+                                here to
+                                support and motivate you every step of the way.
+                                Whether you’re just starting your fitness
+                                journey or
+                                aiming to reach new heights, we provide the
+                                tools
+                                and expertise to help you succeed. </p>
+                        </div>
+                        <div class="footer-links-container display-flex">
+                            <div class="footer-links">
+                                <h1 class="footer-links-title">Dive In</h1>
+                                <div class="footer-links-list">
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Affiliate Program</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                </div>
+                            </div>
+                            <div class="footer-links">
+                                <h1 class="footer-links-title">Dive In</h1>
+                                <div class="footer-links-list">
+                                    <li><a href="#">Fitness</a></li>
+                                    <li><a href="#">Platform</a></li>
+                                    <li><a href="#">Workout Libary</a></li>
+                                    <li><a href="#">App Design</a></li>
+                                </div>
                             </div>
                         </div>
-                        <div class="footer-links">
-                            <h1 class="footer-links-title">Dive In</h1>
-                            <div class="footer-links-list">
-                                <li><a href="#">Fitness</a></li>
-                                <li><a href="#">Platform</a></li>
-                                <li><a href="#">Workout Libary</a></li>
-                                <li><a href="#">App Design</a></li>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <div class="footer-bottom">
-                    <p class="footer-bottom-text">All right reserved @Zenith
-                        2024</p>
-                </div>
+                    <div class="footer-bottom">
+                        <p class="footer-bottom-text">All right reserved @Zenith
+                            2024</p>
+                    </div>
                 </div>
             </footer>
 

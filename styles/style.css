@@ -214,7 +214,7 @@ line-height: 18px;
   /* border: 1px solid white; */
   display: flex;
   gap: 14px;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 
 }
 
@@ -580,24 +580,60 @@ td {
 }
 
 .input-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
 
-.input,
-select {
+.input-div input {
   width: 100%;
+}
+
+.input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   font-size: 1rem;
-  padding: 12px 40px 12px 20px;
+  padding: 12px 20px;
   border: none;
+}
+
+.select select {
+  /* width: 200px; */
+  /* border: 1px solid red; */
+}
+
+.select {
+  position: relative;
 }
 
 select {
   color: rgba(255, 255, 255, 0.6);
-  /* padding: 12px 40px 12px 20px; */
+  width: 100%;
+  appearance: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
+  padding: 12px 26px 12px 20px;
+  border: none;
 }
 
+.select::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 26px;
+  width: 8px;
+  height: 8px;
+  /* padding: 12px 26px; */
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.6);
+  border-right: 2px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  transform: rotate(45deg);
+}
+option{
+  color: black;
+}
 ::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -714,7 +750,8 @@ select {
   justify-content: space-between;
   gap: 20px;
 }
-.pass-card{
+
+.pass-card {
   width: 30%;
 }
 
