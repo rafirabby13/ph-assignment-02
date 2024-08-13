@@ -710,7 +710,7 @@ select {
 
 .one-day-pass {
   background-color: var(--bg-light);
-  padding: 60px 50px;
+  padding: 40px;
   margin-top: 50px;
   border-radius: 16px;
 }
@@ -748,7 +748,7 @@ select {
 }
 
 .monthly-pass .basic {
-  padding-top: 10px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -763,7 +763,7 @@ select {
 
 .basic {
   font-size: 1rem;
-  padding-top: 10px;
+  margin-top: 10px;
   line-height: 30px;
 
   margin-bottom: 20px;
