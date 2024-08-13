@@ -163,6 +163,13 @@ line-height: 18px;
   width: 16px;
 }
 
+
+
+
+
+
+
+
 /* hero section */
 
 .hero {
@@ -526,12 +533,12 @@ line-height: 18px;
 
 .bmi-container {
   justify-content: space-between;
-  gap: 55px;
+  gap: 175px;
   /* border: 5px solid white; */
 }
 
 .bmi-chart {
-  width: 50%;
+  width: 60%;
 }
 
 .table {
@@ -552,7 +559,7 @@ td {
 th {
   font-size: 1rem;
   font-weight: 500;
-  width: 159px;
+  /* width: 159px; */
 }
 
 td {
@@ -562,7 +569,7 @@ td {
 }
 
 .bmi-form {
-  width: 54%;
+  /* width: 54%; */
 }
 
 .calculate-bmi {
