@@ -112,7 +112,8 @@
 
   .run-image-div {
     width: 100%;
-    height: 170px;
+    /* height: 170px; */
+    padding-top: 53%;
     background-position: center;
     background-size: cover;
   }
@@ -167,11 +168,11 @@
     flex-direction: column;
   }
 
-    .one-day-pass,
-    .monthly-pass {
-      margin-top: 0px;
-      padding: 20px 30px;
-    }
+  .one-day-pass,
+  .monthly-pass {
+    margin-top: 0px;
+    padding: 20px 30px;
+  }
 
   .footer-container,
   .footer-links-container {
@@ -406,7 +407,8 @@
 
   .run-image-div {
     width: 100%;
-    height: 170px;
+    /* height: 170px; */
+    padding-top: 47%;
     background-position: center;
     background-size: cover;
   }
@@ -636,7 +638,9 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-
+.pass-card {
+  width: 100%;
+}
   .first-pass {
     grid-row: 2 / 3;
     grid-column: 1 / 3;
@@ -654,7 +658,7 @@
     grid-column: 2 / 4;
     margin-bottom: 0;
   }
-  
+
 
 
 }
@@ -813,7 +817,7 @@
     padding: 20px 20px;
   }
 
-  
+
 
   .footer-container {
     flex-direction: column;

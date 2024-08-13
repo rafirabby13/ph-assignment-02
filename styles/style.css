@@ -381,7 +381,8 @@ line-height: 18px;
   background-repeat: no-repeat;
   border-radius: 18px;
   width: 44.5%;
-  height: 312px;
+  /* height: 312px; */
+  padding-top: 35%;
   background-size: 300%;
 }
 
@@ -702,6 +703,9 @@ select {
 .pass {
   justify-content: space-between;
   gap: 20px;
+}
+.pass-card{
+  width: 30%;
 }
 
 .pass h1 {
