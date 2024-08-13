@@ -654,6 +654,15 @@
     margin-top: 0px;
   }
 
+  .bmi-container {
+    gap: 30px;
+    /* border: 5px solid white; */
+  }
+
+  .bmi-form {
+    width: 54%;
+  }
+
   .pass {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
