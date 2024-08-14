@@ -785,34 +785,37 @@ option {
 
 .monthly-pass {
   padding: 40px;
-  color: var(--bg-light);
+  color: var(--text-orange);
   margin-bottom: 50px;
-  border-radius: 7px;
-  /* background: rgba(255, 5, 255, 0.31); */
-  background: rgba(230, 83, 60, 0.624);
-  background: var(--text-orange);
-  background: linear-gradient(180deg,
+  border-radius: 12px;
+  /* background: linear-gradient(180deg,
       rgba(230, 83, 60, 0.124),
-      --text-orange) 50%;
+      --text-orange) 50%; */
+  background-color: var(--bg);
+  box-shadow: -2px 2px 22px 12px var(--bg-light);
 
 }
+.second-pass h1{
+  /* color: var(--text-orange); */
+}
 
-.monthly-pass p {
+.second-pass p {
   /* color: var(--bg); */
+  color: var(--text-orange);
   font-weight: 700;
 }
 
-.monthly-pass .btn {
+/* .monthly-pass .btn {
   background-color: var(--bg-light);
   color: var(--text-orange);
   color: var(--text-white);
-}
+} */
 
 .monthly-pass .price {
   /* border-top: 1px solid var(--bg); */
   /* padding-top: 20px; */
-  border-bottom: 3px solid var(--bg);
-  padding-bottom: 2px;
+  border-bottom: 3px solid var(--text-orange);
+  padding-bottom: 10px;
 }
 
 .monthly-pass .basic {
@@ -826,7 +829,7 @@ option {
 
 .price {
   border-bottom: 3px solid var(--text-orange);
-  padding-bottom: 2px;
+  padding-bottom: 10px;
 }
 
 .basic {
