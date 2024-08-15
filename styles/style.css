@@ -786,6 +786,9 @@ option {
   margin-top: 50px;
 }
 
+.one-day-pass:hover {
+  box-shadow: 2px 2px 22px 2px var(--text-white);
+}
 .monthly-pass {
   color: var(--text-orange);
   margin-bottom: 50px;
@@ -793,6 +796,11 @@ option {
   box-shadow: -2px 2px 22px 12px var(--bg-light);
 
 }
+
+.monthly-pass:hover {
+    box-shadow: 2px 2px 32px 12px var(--text-orange);
+}
+
 
 .second-pass h1 {
   /* color: var(--text-orange); */
