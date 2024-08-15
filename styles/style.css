@@ -765,11 +765,16 @@ option {
 
 .pass {
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
+  align-items: stretch;
 }
 
 .pass-card {
   width: 30%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px;
 }
 
 .pass h1 {
@@ -778,24 +783,18 @@ option {
 
 .one-day-pass {
   background-color: var(--bg-light);
-  padding: 40px;
   margin-top: 50px;
-  border-radius: 16px;
 }
 
 .monthly-pass {
-  padding: 40px;
   color: var(--text-orange);
   margin-bottom: 50px;
-  border-radius: 12px;
-  /* background: linear-gradient(180deg,
-      rgba(230, 83, 60, 0.124),
-      --text-orange) 50%; */
   background-color: var(--bg);
   box-shadow: -2px 2px 22px 12px var(--bg-light);
 
 }
-.second-pass h1{
+
+.second-pass h1 {
   /* color: var(--text-orange); */
 }
 
@@ -805,11 +804,7 @@ option {
   font-weight: 700;
 }
 
-/* .monthly-pass .btn {
-  background-color: var(--bg-light);
-  color: var(--text-orange);
-  color: var(--text-white);
-} */
+
 
 .monthly-pass .price {
   /* border-top: 1px solid var(--bg); */
@@ -823,10 +818,6 @@ option {
   margin-bottom: 20px;
 }
 
-.pass .btn {
-  border-radius: 8px;
-  margin-top: auto;
-}
 
 .price {
   border-bottom: 3px solid var(--text-orange);
@@ -837,9 +828,15 @@ option {
   font-size: 1rem;
   margin-top: 10px;
   line-height: 30px;
-
   margin-bottom: 20px;
 }
+.package-btn {
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+
+
 
 
 
