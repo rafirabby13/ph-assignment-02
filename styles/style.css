@@ -825,6 +825,7 @@ option {
 
 .pass .btn {
   border-radius: 8px;
+  margin-top: auto;
 }
 
 .price {
