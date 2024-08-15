@@ -623,11 +623,13 @@
 
   .hero {
     /* gap: 150px; */
+    gap: 60px;
   }
 
   .hero-content {
+    /* width: 40%; */
     /* width: auto; */
-    /* border: 1px solid white; */
+    border: 1px solid white;
   }
 
   .hero-content .btn {
@@ -636,8 +638,13 @@
 
   .hero-content-title {
     width: 100%;
-    font-size: 2.9rem;
+    width: 90%;
+    font-size: 3.2rem;
     line-height: 55px;
+  }
+
+  .hero-description {
+    width: 90%;
   }
 
   .shape {
@@ -646,10 +653,72 @@
 
   .hero-banner {
     width: 450px;
+    width: 370px;
     background-size: cover;
+    /* height: 500px; */
 
     /* border: 2px solid red; */
 
+  }
+
+  .services {
+    padding: 11px 14px;
+  }
+
+  .number {
+    color: rgb(250, 250, 249);
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .text {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+
+  .video-tutorial {
+    position: absolute;
+    /* bottom: 63px;
+    left: -120px; */
+    align-items: center;
+    bottom: 14%;
+    left: -15%;
+  }
+
+  .circle {
+    background-color: var(--text-orange);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 12px;
+    position: relative;
+  }
+
+  .free-workout {
+    position: absolute;
+    /* top: 110px;
+    right: -96px; */
+    top: 27%;
+    right: -10%;
+  }
+
+  .workout-number {
+    font-size: 1.5rem;
+  }
+
+  .tribhuj {
+    position: absolute;
+    top: 28%;
+    left: 34%;
+    /* translate: transform(-50%, -50%); */
+  }
+
+  .button-container .btn {
+    font-size: 12px;
+    padding: 12px 25px;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
   }
 
   .button-container {
